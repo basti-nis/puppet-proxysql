@@ -86,8 +86,8 @@ class proxysql::params {
         gpgkey   => 'http://repo.proxysql.com/ProxySQL/repo_pub_key',
       }
       $repo22             = {
-        name     => 'proxysql_2_0',
-        descr    => 'ProxySQL 2.0.x YUM repository',
+        name     => 'proxysql_2_2',
+        descr    => 'ProxySQL 2.2.x YUM repository',
         baseurl  => "http://repo.proxysql.com/ProxySQL/proxysql-2.2.x/centos/${facts['os']['release']['major']}",
         enabled  => true,
         gpgcheck => true,
